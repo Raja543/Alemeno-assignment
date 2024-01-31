@@ -1,0 +1,800 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Introduction to React Native",
+            "instructor": "John Doe",
+            "description": "Learn the basics of React Native development and build your first mobile app.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "/assets/demo.png",
+            "duration": "8 weeks",
+            "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+            "location": "Online",
+            "prerequisites": [
+                "Basic JavaScript knowledge",
+                "Familiarity with React"
+            ],
+            "syllabus": [
+                {
+                    "week": 1,
+                    "topic": "Introduction to React Native",
+                    "content": "Overview of React Native, setting up your development environment."
+                },
+                {
+                    "week": 2,
+                    "topic": "Building Your First App",
+                    "content": "Creating a simple mobile app using React Native components."
+                },
+                {
+                    "week": 3,
+                    "topic": "Navigation in React Native",
+                    "content": "Understanding and implementing navigation in React Native apps."
+                },
+                {
+                    "week": 4,
+                    "topic": "State Management",
+                    "content": "Managing state in React Native applications using hooks and context."
+                },
+                {
+                    "week": 5,
+                    "topic": "UI Components and Styling",
+                    "content": "Exploring UI components and styling in React Native."
+                },
+                {
+                    "week": 6,
+                    "topic": "API Integration",
+                    "content": "Integrating APIs and handling data in React Native."
+                },
+                {
+                    "week": 7,
+                    "topic": "Testing and Debugging",
+                    "content": "Testing and debugging techniques for React Native applications."
+                },
+                {
+                    "week": 8,
+                    "topic": "Deployment and Best Practices",
+                    "content": "Deploying React Native apps and best practices for mobile development."
+                }
+            ],
+            "students": [
+                {
+                    "id": 101,
+                    "name": "Alice Johnson",
+                    "email": "alice@example.com"
+                },
+                {
+                    "id": 102,
+                    "name": "Bob Smith",
+                    "email": "bob@example.com"
+                }
+            ],
+            "enrolledCourses": [
+                {
+                    "courseId": 201,
+                    "dueDate": "2024-03-01",
+                    "progress": 30,
+                    "complete": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Advanced JavaScript Concepts",
+            "instructor": "Jane Smith",
+            "description": "Deep dive into advanced JavaScript topics for experienced developers.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "/assets/demo.png",
+            "duration": "10 weeks",
+            "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+            "location": "Online",
+            "prerequisites": [
+                "Solid understanding of JavaScript",
+                "Experience with asynchronous programming"
+            ],
+            "syllabus": [
+                {
+                    "week": 1,
+                    "topic": "Closures and Scope",
+                    "content": "Understanding closures, lexical scope, and practical applications."
+                },
+                {
+                    "week": 2,
+                    "topic": "Promises and Async/Await",
+                    "content": "In-depth exploration of asynchronous JavaScript using promises and async/await."
+                },
+                {
+                    "week": 3,
+                    "topic": "ES6 and Modern JavaScript",
+                    "content": "Exploring features introduced in ECMAScript 6 and modern JavaScript development."
+                },
+                {
+                    "week": 4,
+                    "topic": "Functional Programming",
+                    "content": "Understanding functional programming concepts and application in JavaScript."
+                },
+                {
+                    "week": 5,
+                    "topic": "Advanced DOM Manipulation",
+                    "content": "Advanced techniques for manipulating the Document Object Model (DOM)."
+                },
+                {
+                    "week": 6,
+                    "topic": "Web Performance Optimization",
+                    "content": "Strategies for optimizing web page performance using JavaScript."
+                },
+                {
+                    "week": 7,
+                    "topic": "Testing in JavaScript",
+                    "content": "Overview of testing frameworks and methodologies for JavaScript applications."
+                },
+                {
+                    "week": 8,
+                    "topic": "Webpack and Module Bundlers",
+                    "content": "Introduction to Webpack and other module bundlers for JavaScript projects."
+                },
+                {
+                    "week": 9,
+                    "topic": "Server-Side JavaScript",
+                    "content": "Exploring server-side JavaScript using Node.js."
+                },
+                {
+                    "week": 10,
+                    "topic": "Final Project",
+                    "content": "Developing a comprehensive final project applying concepts learned throughout the course."
+                }
+            ],
+            "students": [
+                {
+                    "id": 103,
+                    "name": "Charlie Brown",
+                    "email": "charlie@example.com"
+                },
+                {
+                    "id": 104,
+                    "name": "Diana Miller",
+                    "email": "diana@example.com"
+                }
+            ],
+            "enrolledCourses": [
+                {
+                    "courseId": 202,
+                    "dueDate": "2024-04-01",
+                    "progress": 20,
+                    "complete": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Web Development Bootcamp",
+            "instructor": "Alex Johnson",
+            "description": "Comprehensive bootcamp covering HTML, CSS, and JavaScript for beginners.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "/assets/demo.png",
+            "duration": "12 weeks",
+            "schedule": "Tuesdays and Thursdays, 6:30 PM - 8:30 PM",
+            "location": "Online",
+            "prerequisites": [
+                "No prerequisites, suitable for beginners"
+            ],
+            "syllabus": [
+                {
+                    "week": 1,
+                    "topic": "Introduction to HTML",
+                    "content": "Building blocks of web development - HTML fundamentals."
+                },
+                {
+                    "week": 2,
+                    "topic": "Styling with CSS",
+                    "content": "Understanding CSS for effective web page styling."
+                },
+                {
+                    "week": 3,
+                    "topic": "Responsive Web Design",
+                    "content": "Creating responsive layouts for various devices using CSS."
+                },
+                {
+                    "week": 4,
+                    "topic": "Introduction to JavaScript",
+                    "content": "Basic concepts and usage of JavaScript in web development."
+                },
+                {
+                    "week": 5,
+                    "topic": "DOM Manipulation and Events",
+                    "content": "Manipulating the Document Object Model (DOM) and handling events with JavaScript."
+                },
+                {
+                    "week": 6,
+                    "topic": "Introduction to Frontend Frameworks",
+                    "content": "Overview of popular frontend frameworks like React and Vue.js."
+                },
+                {
+                    "week": 7,
+                    "topic": "Backend Basics with Node.js",
+                    "content": "Introduction to server-side development using Node.js."
+                },
+                {
+                    "week": 8,
+                    "topic": "Databases and Data Storage",
+                    "content": "Understanding databases and data storage in web development."
+                },
+                {
+                    "week": 9,
+                    "topic": "APIs and RESTful Services",
+                    "content": "Working with APIs and building RESTful services in web applications."
+                },
+                {
+                    "week": 10,
+                    "topic": "Final Project",
+                    "content": "Developing a comprehensive final project applying concepts learned throughout the course."
+                },
+                {
+                    "week": 11,
+                    "topic": "Introduction to Fullstack Development",
+                    "content": "Understanding fullstack development and integrating frontend with backend."
+                },
+                {
+                    "week": 12,
+                    "topic": "Deployment and Hosting",
+                    "content": "Deploying web applications and hosting considerations."
+                }
+            ],
+            "students": [
+                {
+                    "id": 105,
+                    "name": "Emma Davis",
+                    "email": "emma@example.com"
+                },
+                {
+                    "id": 106,
+                    "name": "Frank Turner",
+                    "email": "frank@example.com"
+                }
+            ],
+            "enrolledCourses": [
+                {
+                    "courseId": 203,
+                    "dueDate": "2024-05-01",
+                    "progress": 10,
+                    "complete": false
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Data Science Fundamentals",
+            "instructor": "Eva Martinez",
+            "description": "Explore the basics of data science and statistical analysis using Python.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "/assets/demo.png",
+            "duration": "8 weeks",
+            "schedule": "Mondays and Fridays, 6:00 PM - 8:00 PM",
+            "location": "Online",
+            "prerequisites": [
+                "Basic knowledge of Python",
+                "Mathematics fundamentals"
+            ],
+            "syllabus": [
+                {
+                    "week": 1,
+                    "topic": "Introduction to Data Science",
+                    "content": "Overview of data science, key concepts, and applications."
+                },
+                {
+                    "week": 2,
+                    "topic": "Python for Data Science",
+                    "content": "Data manipulation, analysis, and visualization using Python libraries."
+                },
+                {
+                    "week": 3,
+                    "topic": "Exploratory Data Analysis",
+                    "content": "Techniques for exploring and analyzing data sets."
+                },
+                {
+                    "week": 4,
+                    "topic": "Statistical Analysis with Python",
+                    "content": "Performing statistical analysis using Python."
+                },
+                {
+                    "week": 5,
+                    "topic": "Machine Learning Basics",
+                    "content": "Introduction to machine learning concepts and algorithms."
+                },
+                {
+                    "week": 6,
+                    "topic": "Supervised Learning",
+                    "content": "Understanding and implementing supervised learning algorithms."
+                },
+                {
+                    "week": 7,
+                    "topic": "Unsupervised Learning",
+                    "content": "Exploring unsupervised learning algorithms and clustering."
+                },
+                {
+                    "week": 8,
+                    "topic": "Natural Language Processing",
+                    "content": "Introduction to NLP and text analysis with Python."
+                }
+            ],
+            "students": [
+                {
+                    "id": 107,
+                    "name": "George Wilson",
+                    "email": "george@example.com"
+                },
+                {
+                    "id": 108,
+                    "name": "Hannah Taylor",
+                    "email": "hannah@example.com"
+                }
+            ],
+            "enrolledCourses": [
+                {
+                    "courseId": 204,
+                    "dueDate": "2024-06-01",
+                    "progress": 15,
+                    "complete": false
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Mobile App Design Workshop",
+            "instructor": "Liam Adams",
+            "description": "Hands-on workshop on designing user-friendly mobile applications.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "/assets/demo.png",
+            "duration": "6 weeks",
+            "schedule": "Wednesdays, 5:00 PM - 7:00 PM",
+            "location": "Online",
+            "prerequisites": [
+                "Basic understanding of UI/UX design principles"
+            ],
+            "syllabus": [
+                {
+                    "week": 1,
+                    "topic": "Introduction to Mobile Design",
+                    "content": "Understanding the principles of mobile app design."
+                },
+                {
+                    "week": 2,
+                    "topic": "Prototyping with Figma",
+                    "content": "Creating interactive prototypes for mobile apps."
+                },
+                {
+                    "week": 3,
+                    "topic": "User Interface (UI) Design",
+                    "content": "Designing effective user interfaces for mobile applications."
+                },
+                {
+                    "week": 4,
+                    "topic": "User Experience (UX) Design",
+                    "content": "Enhancing user experiences through effective UX design."
+                },
+                {
+                    "week": 5,
+                    "topic": "Mobile App Usability Testing",
+                    "content": "Testing the usability of mobile applications with real users."
+                },
+                {
+                    "week": 6,
+                    "topic": "Implementing Feedback",
+                    "content": "Incorporating user feedback and making improvements to mobile app designs."
+                }
+            ],
+            "students": [
+                {
+                    "id": 109,
+                    "name": "Isabella Parker",
+                    "email": "isabella@example.com"
+                },
+                {
+                    "id": 110,
+                    "name": "Jack Anderson",
+                    "email": "jack@example.com"
+                }
+            ],
+            "enrolledCourses": [
+                {
+                    "courseId": 205,
+                    "dueDate": "2024-07-01",
+                    "progress": 25,
+                    "complete": false
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Machine Learning Fundamentals",
+            "instructor": "Sophie Carter",
+            "description": "Introduction to machine learning concepts and algorithms using Python.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "/assets/demo.png",
+            "duration": "10 weeks",
+            "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
+            "location": "Online",
+            "prerequisites": [
+                "Basic knowledge of Python",
+                "Understanding of linear algebra and calculus"
+            ],
+            "syllabus": [
+                {
+                    "week": 1,
+                    "topic": "Introduction to Machine Learning",
+                    "content": "Overview of machine learning, types, and applications."
+                },
+                {
+                    "week": 2,
+                    "topic": "Supervised Learning",
+                    "content": "Understanding and implementing supervised learning algorithms."
+                },
+                {
+                    "week": 3,
+                    "topic": "Unsupervised Learning",
+                    "content": "Exploring unsupervised learning algorithms and clustering."
+                },
+                {
+                    "week": 4,
+                    "topic": "Feature Engineering",
+                    "content": "Techniques for selecting and transforming features in machine learning."
+                },
+                {
+                    "week": 5,
+                    "topic": "Model Evaluation and Metrics",
+                    "content": "Evaluating machine learning models and choosing appropriate metrics."
+                },
+                {
+                    "week": 6,
+                    "topic": "Introduction to Neural Networks",
+                    "content": "Basic concepts of neural networks and deep learning."
+                },
+                {
+                    "week": 7,
+                    "topic": "Deep Learning with TensorFlow",
+                    "content": "Implementing deep learning models using the TensorFlow framework."
+                },
+                {
+                    "week": 8,
+                    "topic": "Natural Language Processing",
+                    "content": "Introduction to NLP and text analysis with machine learning."
+                },
+                {
+                    "week": 9,
+                    "topic": "Reinforcement Learning",
+                    "content": "Understanding and implementing reinforcement learning algorithms."
+                },
+                {
+                    "week": 10,
+                    "topic": "Final Project",
+                    "content": "Developing a comprehensive final project applying machine learning concepts learned throughout the course."
+                }
+            ],
+            "students": [
+                {
+                    "id": 111,
+                    "name": "Kyle Roberts",
+                    "email": "kyle@example.com"
+                },
+                {
+                    "id": 112,
+                    "name": "Lily Turner",
+                    "email": "lily@example.com"
+                }
+            ],
+            "enrolledCourses": [
+                {
+                    "courseId": 206,
+                    "dueDate": "2024-08-01",
+                    "progress": 18,
+                    "complete": false
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Frontend Web Development",
+            "instructor": "Mia Harris",
+            "description": "Learn the essentials of frontend web development with HTML, CSS, and JavaScript.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "/assets/demo.png",
+            "duration": "8 weeks",
+            "schedule": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
+            "location": "Online",
+            "prerequisites": [
+                "Basic knowledge of HTML and CSS"
+            ],
+            "syllabus": [
+                {
+                    "week": 1,
+                    "topic": "HTML and CSS Basics",
+                    "content": "Foundational concepts of HTML and CSS for web development."
+                },
+                {
+                    "week": 2,
+                    "topic": "JavaScript Fundamentals",
+                    "content": "Introduction to JavaScript and its role in web development."
+                },
+                {
+                    "week": 3,
+                    "topic": "DOM Manipulation and Events",
+                    "content": "Manipulating the Document Object Model (DOM) and handling events with JavaScript."
+                },
+                {
+                    "week": 4,
+                    "topic": "Responsive Web Design",
+                    "content": "Creating responsive layouts for various devices using CSS."
+                },
+                {
+                    "week": 5,
+                    "topic": "Web Accessibility",
+                    "content": "Ensuring web applications are accessible to users with disabilities."
+                },
+                {
+                    "week": 6,
+                    "topic": "Introduction to Frontend Frameworks",
+                    "content": "Overview of popular frontend frameworks like React and Vue.js."
+                },
+                {
+                    "week": 7,
+                    "topic": "Advanced CSS Techniques",
+                    "content": "Exploring advanced CSS techniques for modern web development."
+                },
+                {
+                    "week": 8,
+                    "topic": "Web Performance Optimization",
+                    "content": "Strategies for optimizing web page performance using various techniques."
+                }
+            ],
+            "students": [
+                {
+                    "id": 113,
+                    "name": "Nathan Adams",
+                    "email": "nathan@example.com"
+                },
+                {
+                    "id": 114,
+                    "name": "Olivia White",
+                    "email": "olivia@example.com"
+                }
+            ],
+            "enrolledCourses": [
+                {
+                    "courseId": 207,
+                    "dueDate": "2024-09-01",
+                    "progress": 12,
+                    "complete": false
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Cybersecurity Fundamentals",
+            "instructor": "Ethan Black",
+            "description": "Explore the fundamentals of cybersecurity and best practices for securing digital assets.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "/assets/demo.png",
+            "duration": "10 weeks",
+            "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+            "location": "Online",
+            "prerequisites": [
+                "Basic understanding of computer networks",
+                "Familiarity with operating systems"
+            ],
+            "syllabus": [
+                {
+                    "week": 1,
+                    "topic": "Introduction to Cybersecurity",
+                    "content": "Overview of cybersecurity, threats, and common attack vectors."
+                },
+                {
+                    "week": 2,
+                    "topic": "Network Security",
+                    "content": "Securing computer networks and understanding network vulnerabilities."
+                },
+                {
+                    "week": 3,
+                    "topic": "Cryptography Basics",
+                    "content": "Fundamentals of cryptography and its role in cybersecurity."
+                },
+                {
+                    "week": 4,
+                    "topic": "Security Policies and Procedures",
+                    "content": "Developing and implementing effective security policies and procedures."
+                },
+                {
+                    "week": 5,
+                    "topic": "Web Application Security",
+                    "content": "Securing web applications and protecting against common web-based attacks."
+                },
+                {
+                    "week": 6,
+                    "topic": "Security Auditing and Compliance",
+                    "content": "Conducting security audits and ensuring compliance with industry standards."
+                },
+                {
+                    "week": 7,
+                    "topic": "Incident Response and Forensics",
+                    "content": "Managing cybersecurity incidents and forensic analysis of security breaches."
+                },
+                {
+                    "week": 8,
+                    "topic": "Endpoint Security",
+                    "content": "Securing endpoint devices and protecting against malware and other threats."
+                },
+                {
+                    "week": 9,
+                    "topic": "Wireless Security",
+                    "content": "Securing wireless networks and mitigating wireless security risks."
+                },
+                {
+                    "week": 10,
+                    "topic": "Final Project",
+                    "content": "Developing a comprehensive final project applying cybersecurity concepts learned throughout the course."
+                }
+            ],
+            "students": [
+                {
+                    "id": 115,
+                    "name": "Peter Martinez",
+                    "email": "peter@example.com"
+                },
+                {
+                    "id": 116,
+                    "name": "Quinn Turner",
+                    "email": "quinn@example.com"
+                }
+            ],
+            "enrolledCourses": [
+                {
+                    "courseId": 208,
+                    "dueDate": "2024-10-01",
+                    "progress": 15,
+                    "complete": false
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Python Web Development",
+            "instructor": "Zoe White",
+            "description": "Learn web development using Python and popular web frameworks.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "/assets/demo.png",
+            "duration": "8 weeks",
+            "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+            "location": "Online",
+            "prerequisites": [
+                "Basic knowledge of Python",
+                "Understanding of web concepts"
+            ],
+            "syllabus": [
+                {
+                    "week": 1,
+                    "topic": "Introduction to Web Development with Python",
+                    "content": "Overview of web development using Python and setting up the development environment."
+                },
+                {
+                    "week": 2,
+                    "topic": "Django Framework Basics",
+                    "content": "Introduction to the Django web framework and its basic concepts."
+                },
+                {
+                    "week": 3,
+                    "topic": "Database Integration with Django",
+                    "content": "Integrating databases with Django and performing CRUD operations."
+                },
+                {
+                    "week": 4,
+                    "topic": "User Authentication and Authorization",
+                    "content": "Implementing user authentication and authorization in Django."
+                },
+                {
+                    "week": 5,
+                    "topic": "RESTful APIs with Django REST Framework",
+                    "content": "Building RESTful APIs using Django REST Framework."
+                },
+                {
+                    "week": 6,
+                    "topic": "Frontend Development with Django",
+                    "content": "Integrating frontend development with Django templates."
+                },
+                {
+                    "week": 7,
+                    "topic": "Asynchronous Python and Django Channels",
+                    "content": "Understanding asynchronous programming in Python and Django Channels for real-time applications."
+                },
+                {
+                    "week": 8,
+                    "topic": "Deployment and Hosting",
+                    "content": "Deploying Python web applications and hosting considerations."
+                }
+            ],
+            "students": [
+                {
+                    "id": 117,
+                    "name": "Rachel Wilson",
+                    "email": "rachel@example.com"
+                },
+                {
+                    "id": 118,
+                    "name": "Samuel Turner",
+                    "email": "samuel@example.com"
+                }
+            ],
+            "enrolledCourses": [
+                {
+                    "courseId": 209,
+                    "dueDate": "2024-11-01",
+                    "progress": 12,
+                    "complete": false
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Blockchain and Cryptocurrencies",
+            "instructor": "Noah Brown",
+            "description": "Explore the fundamentals of blockchain technology and cryptocurrencies.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "/assets/demo.png",
+            "duration": "6 weeks",
+            "schedule": "Thursdays, 6:00 PM - 8:00 PM",
+            "location": "Online",
+            "prerequisites": [
+                "Basic understanding of computer networks and cryptography"
+            ],
+            "syllabus": [
+                {
+                    "week": 1,
+                    "topic": "Introduction to Blockchain Technology",
+                    "content": "Overview of blockchain technology and its key components."
+                },
+                {
+                    "week": 2,
+                    "topic": "Cryptocurrencies and Bitcoin",
+                    "content": "Understanding cryptocurrencies, with a focus on Bitcoin."
+                },
+                {
+                    "week": 3,
+                    "topic": "Smart Contracts and Ethereum",
+                    "content": "Introduction to smart contracts and the Ethereum blockchain."
+                },
+                {
+                    "week": 4,
+                    "topic": "Decentralized Finance (DeFi)",
+                    "content": "Exploring decentralized financial applications and services."
+                },
+                {
+                    "week": 5,
+                    "topic": "Blockchain Security and Risks",
+                    "content": "Securing blockchain networks and mitigating risks."
+                },
+                {
+                    "week": 6,
+                    "topic": "Future Trends in Blockchain",
+                    "content": "Exploring emerging trends and developments in the field of blockchain."
+                }
+            ],
+            "students": [
+                {
+                    "id": 119,
+                    "name": "Taylor Davis",
+                    "email": "taylor@example.com"
+                },
+                {
+                    "id": 120,
+                    "name": "Uma Turner",
+                    "email": "uma@example.com"
+                }
+            ],
+            "enrolledCourses": [
+                {
+                    "courseId": 210,
+                    "dueDate": "2024-12-01",
+                    "progress": 8,
+                    "complete": false
+                }
+            ]
+        }
+    ]
+}
