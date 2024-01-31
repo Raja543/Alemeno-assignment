@@ -4,7 +4,7 @@ import { Navigate } from "react-router-dom";
 import CourseList from "./pages/CourseList";
 import CourseDetails from "./pages/CourseDetails";
 import Navbar from "./components/Navbar";
-import StudentDashboard from "./pages/StudentDashboard";
+import StudentList from "./pages/StudentList";
 
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
         <Route path="/" element={<Navigate to="/course" />} />
         <Route path="/course" element={<CourseList />} />
         <Route path="/course/:courseId" element={<CourseDetails />} />
+        <Route path="/studentlist" element={<StudentList />} />
       </Routes>
     </Router>
   );
